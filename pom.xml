@@ -936,7 +936,8 @@
 
         <repository>
             <id>opennlp.sf.net</id>
-            <url>http://opennlp.sourceforge.net/maven2/</url>
+            <url>https://repo.clojars.org/</url>
+            <!-- <url>http://opennlp.sourceforge.net/maven2/</url> -->
         </repository>
 
         <repository>
@@ -946,12 +947,13 @@
 
         <repository>
             <id>sonatype</id>
-            <url>http://repository.sonatype.org/content/groups/public/</url>
+            <url>https://repository.sonatype.org/content/groups/public/</url>
         </repository>
 
+      
         <repository>
             <id>akka</id>
-            <url>http://repo.akka.io/releases/</url>
+            <url>https://repo.akka.io/releases/</url>
         </repository>
 
         <repository>
