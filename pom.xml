@@ -971,7 +971,7 @@
         </repository>
 
     </repositories>
-
+<!-- repo1.maven now contains the scala-tools
     <pluginRepositories>
         <pluginRepository>
             <id>scala-tools.org</id>
@@ -979,5 +979,5 @@
             <url>http://scala-tools.org/repo-releases/</url>
         </pluginRepository>
     </pluginRepositories>
-
+-->
 </project>
