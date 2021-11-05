@@ -37,7 +37,7 @@ jobs:
            distribution: 'temurin'
            cache: 'maven'
       - name: build with maven
-        run: mvn -B -U clean package --file pom.xml
+        run: mvn -B -U clean install --file pom.xml
         #-Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false -Dmaven.wagon.http.retryHandler.count=3
 
       # Runs a set of commands using the runners shell
