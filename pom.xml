@@ -903,7 +903,7 @@
         <repository>
             <id>maven2-repository.dev.java.net</id>
             <name>Java.net Repository for Maven</name>
-            <url>http://download.java.net/maven/2/</url>
+            <url>https://download.java.net/maven/2/</url>
             <layout>default</layout>
         </repository>
 
@@ -912,18 +912,21 @@
             <name>Maven Java Net Snapshots and Releases</name>
             <url>https://maven.java.net/content/groups/public/</url>
         </repository>
-
+        
+      <!-- Scala-tools is part of repo1.maven. The URL is not working anymore: 
         <repository>
             <id>scala-tools.org</id>
             <name>Scala-tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases/</url>
         </repository>
-
+       -->
+       <!-- https not supported TODO: check if it is required and by who
         <repository>
             <id>anonsvn</id>
             <url>http://anonsvn.icefaces.org/repo/maven2/releases/</url>
         </repository>
-
+        -->
+      
         <repository>
             <id>central</id>
             <name>Maven Repository Switchboard</name>
@@ -940,11 +943,12 @@
             <!-- <url>http://opennlp.sourceforge.net/maven2/</url> -->
         </repository>
 
+      <!-- https not supported TODO: check if it is required and by who
         <repository>
             <id>igetdb.sourceforge</id>
             <url>http://igetdb.sourceforge.net/maven2-repository</url>
         </repository>
-
+      -->
         <repository>
             <id>sonatype</id>
             <url>https://repository.sonatype.org/content/groups/public/</url>
